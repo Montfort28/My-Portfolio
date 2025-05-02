@@ -57,7 +57,7 @@ This project was developed in two main phases:
 
 ## Deployment
 
-This site is deployed on Vercel. You can view the live site at: [your-vercel-url-here]
+This site is deployed on Vercel. You can view the live site at: [(https://my-portfolio-lf37.vercel.app/)]
 
 ## Future Enhancements
 
