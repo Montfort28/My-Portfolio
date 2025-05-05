@@ -41,14 +41,14 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         
         if (targetElement) {
             window.scrollTo({
-                top: targetElement.offsetTop - 70, // Adjust for header height
+                top: targetElement.offsetTop - 70, 
                 behavior: 'smooth'
             });
         }
     });
 });
 
-// Form Validation
+// Form Validating
 const contactForm = document.getElementById('contactForm');
 const nameInput = document.getElementById('name');
 const emailInput = document.getElementById('email');
@@ -104,7 +104,7 @@ nameInput.addEventListener('input', validateName);
 emailInput.addEventListener('input', validateEmail);
 messageInput.addEventListener('input', validateMessage);
 
-// Handle form submission
+// Handling form submission
 contactForm.addEventListener('submit', function(e) {
     e.preventDefault();
     
@@ -113,8 +113,6 @@ contactForm.addEventListener('submit', function(e) {
     const isMessageValid = validateMessage();
     
     if (isNameValid && isEmailValid && isMessageValid) {
-        // Here you would typically send the form data to a server
-        // For now, we'll just show a success message
         
         // Create a success message element
         const successMessage = document.createElement('div');
